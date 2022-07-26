@@ -1,0 +1,204 @@
+@media screen and (max-width:1024px)
+ {
+    #img
+    {
+        width: 180px;
+        height: 180px;
+    }
+    #head1
+    {
+        font-size: 1.8em;
+    }
+    #para
+    {
+        font-size: small;
+    }
+    /* about me  */
+  #table
+  {/*
+    margin-left: 4rem;
+    width: 25rem;*/
+    margin-left: 0%; 
+    margin-right: 0%;
+    display: flex;
+    justify-content: center;
+}  
+/*work projecct*/
+#code , #pro 
+{
+    padding: 2.5em;
+    padding-bottom: 1em;
+}
+}
+@media screen and (max-width:768px) {
+     /* career  */
+    #project
+    {
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #code
+    {
+        width: auto;
+        height:auto;
+    }
+    
+    #pro
+    {
+        width: auto;
+        height:auto;
+    }
+
+    /* intro */
+    #para
+    {
+        font-size: x-small;
+    }
+    #img
+    {
+        width: 150px;
+        height: 150px;
+    }
+    #head1
+    {
+        font-size: 1.5em;
+    }
+    
+    #sec1
+    {
+        padding-left: 1em;
+    }
+}
+@media screen and (max-width:655px){
+    /*INTRO*/
+    #div1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #imgd
+    {
+        display: flex;
+        justify-content: center;  
+    }
+    /* table*/
+    .element
+    {
+        width: 30em;       
+    }
+}
+
+@media screen and (max-width:555px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+    .element
+    {
+        width: 25em;       
+    }
+  #table
+  {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 15rem;
+  }   
+}
+
+@media screen and (max-width:500px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+        /*  heading */
+    #head1
+    {
+        font-size: 1.4em;
+    }
+    #para
+    {
+        margin: 0%;
+        padding-right: 2em;
+    }
+    #div1
+    {
+  
+        width: 24em;
+    }
+    /*  work */
+ #code, #pro
+ {
+    font-size: smaller;
+ }
+ /* about me */
+ 
+ .element
+ {
+    width: 20em;
+ }
+}
+@media screen and (max-width:460px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+    #para
+    {
+        padding-right: 2rem;
+    }
+}
+@media screen and (max-width:400px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+    #para
+    {
+        padding-right: 2.2rem;
+        padding-left: 1.2rem;
+    }
+
+}
+@media screen and (max-width:360px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+    #para
+    {
+        padding-right: 2.5rem;
+        padding-left: 1.8rem;
+    }
+    #head1
+    {
+        padding-left: 0.8em;
+    }
+
+}
+@media screen and (max-width:330px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+    #para
+    {
+        padding-right: 2rem;
+        padding-left: 2.6rem;
+    }
+    #head1
+    {
+        padding-left: 0.8em;
+    }
+    .element
+    {
+        width: 14rem;
+    }
+}
